@@ -1,19 +1,21 @@
-# Adafruit PCA9685 PWM Servo Driver Library ![Build Status](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library/workflows/Arduino%20Library%20CI/badge.svg)
+# bun-react-tailwind-shadcn-template
 
+To install dependencies:
 
-This is a library for our Adafruit 16-channel PWM & Servo driver, shield or FeatherWing
+```bash
+bun install
+```
 
-<a href="https://www.adafruit.com/products/815"><img src="https://cdn-shop.adafruit.com/970x728/815-04.jpg" height="300"/></a>
+To start a development server:
 
-Pick one up today in the adafruit shop!
-  * https://www.adafruit.com/products/815
-  * https://www.adafruit.com/product/1411
-  * https://www.adafruit.com/product/2928
+```bash
+bun dev
+```
 
-These drivers use I2C to communicate, 2 pins are required to interface.
+To run for production:
 
-Adafruit invests time and resources providing this open source code, please support Adafruit and open-source hardware by purchasing products from Adafruit!
+```bash
+bun start
+```
 
-Written by Limor Fried/Ladyada  for Adafruit Industries. BSD license, check license.txt for more information. 
-
-All text above must be included in any redistribution
+This project was created using `bun init` in bun v1.3.2. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
